@@ -1,0 +1,99 @@
+/* GENERAL */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+  
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/* BACK TO TOP BUTTON */
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #ffd768;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+  
+.back-to-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: #78c48c;
+    color: #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.main{
+    margin-top: 50px;
+}
+
+.btn-getstarted {
+    margin-right: 20px;
+    background-color: #ffd768;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    -webkit-transition: 0.3s background-color;
+    -moz-transition: 0.3s background-color;
+    -ms-transition: 0.3s background-color;
+    -o-transition: 0.3s background-color;
+}
+
+.btn-get-started:hover{
+    background-color: #ffbb2c;
+}
+
+.navbar{
+    color:#F5F7F8;
+}
+
+.navbar-brand{
+    margin-left:20px;
+}
+
+.navbar-toggler{
+    margin-right: 20px;
+    border: none;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
